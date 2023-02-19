@@ -14,6 +14,7 @@
     --fonte-links-cor1: #b94851;
 }
 body {
+    
     height: 93vh;
     font-family: 'Anton', sans-serif;
     font-family: 'Noto Sans TC', sans-serif;
@@ -49,6 +50,8 @@ div > a{
 }
 
 section {
+    
+    position: relative;
     color: #161010;
     text-align: center;
 }
@@ -58,6 +61,7 @@ section h2 {
 }
 
 section p {
+    
     text-align:justify;
     text-align: center;
     color: rgb(0, 0, 0)
@@ -74,11 +78,11 @@ a:hover{
     
 }
 footer{
-    position: absolute;
+    
+    position: relative;
     bottom: 0;
     text-align: center;
-    width: 95%;
-    height: 4rem;
+    height: 3rem;
     color: white;
 }
 
