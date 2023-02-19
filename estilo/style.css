@@ -23,6 +23,12 @@ body {
     background-size: cover;
     background-image: url('../imagens/Amanhecer_no_Hercules_--.jpg');
     background-color: black;
+    background-attachment: scroll;
+}
+
+main{
+    max-width: 400px;
+    background-position: center top;
 }
 
 header .h1{
